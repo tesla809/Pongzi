@@ -1,0 +1,16 @@
+<Header1><b>
+  Let's Make A Bet on Pong!
+  </b>
+  </Header1>
+<br>
+
+</br>
+
+<form>
+  Make a bet:
+  <input type="number" name="points" min="1" max="100" step="10" value="30">
+</form>
+<br>
+</br>
+<button type="button">Start</button>
+
