@@ -1,25 +1,22 @@
-# Nice game!
+# Pongzi
 
-## Use:
+A pong game "betting" ring. Blockchains, pong, gambling - what could go wrong?
 
-To start do:
+## Dependencies
 
+* [websockets](https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61)
+
+## Setup
+
+Install dependencies.
+
+```bash
+npm install websocket
 ```
+Start the server.
+
+```bash
 clear && node server.js
 ```
 
-And head to http://localhost:1337/index.html .
-
-
-## References
-
-Took websockets from:
-
-* https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
-
-## Install prerequisites
-
-```
-npm install websocket
-```
-
+Head to localhost:1337/index.html in the browser to get started!
