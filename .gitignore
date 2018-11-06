@@ -1,5 +1,7 @@
 package-lock.json
 node_modules/**
+
+# Windows executables
 *.exe
 
 # Logs
