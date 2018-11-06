@@ -4,30 +4,22 @@
         <meta charset="utf-8">
         <title>WebSockets - Simple chat</title>
 
-        <style>
-        * { font-family:tahoma; font-size:12px; padding:0px; margin:0px; }
-        p { line-height:18px; }
-        div { width:500px; margin-left:auto; margin-right:auto;}
-        #content { padding:5px; background:#ddd; border-radius:5px; overflow-y: scroll;
-                   border:1px solid #CCC; margin-top:10px; height: 160px; }
-        #input { border-radius:2px; border:1px solid #ccc;
-                 margin-top:10px; padding:5px; width:400px;  }
-        #status { width:88px; display:block; float:left; margin-top:15px; }
-        </style>
+        <link rel="stylesheet" href="ws-style.css">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     </head>
     <body>
+        <h1>Pongzi</h1>
+        <h2>Let's Make A Bet on Pong!</h1>
+        <br>
+        <form>
+            <span id="bet-input">Make a bet:</span>
+            <input type="number" name="points" min="1" max="100" step="10" value="30">
+        </form>
         <div id="content"></div>
         <div>
             <span id="status">Connecting...</span>
             <input type="text" id="input" disabled="disabled" />
         </div>
-
-        <h1><b>Let's Make A Bet on Pong!</b></h1>
-        <br>
-        <form>
-            Make a bet:
-            <input type="number" name="points" min="1" max="100" step="10" value="30">
-        </form>
         <br>
         <button type="button">Start</button>
 
