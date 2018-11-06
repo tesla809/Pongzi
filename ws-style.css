@@ -1,6 +1,6 @@
-* { 
+* {
 	margin:0px;
-	padding:0px; 
+	padding:0px;
 }
 
 body {
@@ -21,6 +21,12 @@ h2 {
 	font-size: 1em;
 	text-align: center;
 	margin-top: 75px;
+}
+
+button{
+	background-color: gray;
+	border-radius: 75px;
+	width: 100px;
 }
 
 form {
