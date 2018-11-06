@@ -4,6 +4,9 @@ node_modules/**
 # Windows executables
 *.exe
 
+# remove default mac directory file: .DS_sore
+.DS_Store
+
 # Logs
 logs
 *.log
