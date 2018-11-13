@@ -12,30 +12,60 @@ h1 {
 	color: #fff;
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
-	margin-top: 75px;
+/*	border-right: .7em solid white;
+	animation: 
+		blink-caret .85s step-end infinite;*/
 }
+
+/*@keyframes blink-caret {
+	from, to { border-color: transparent; }
+	50% { border-color: white; }
+}*/
 
 h2 {
 	color: #20C20E;
 	font-family: 'Press Start 2P', cursive;
-	font-size: 1em;
+	font-size: .75em;
 	text-align: center;
 	margin-top: 75px;
 }
 
+#status, #bet-input {
+	color: #20C20E;
+	font-family: 'Press Start 2P', cursive;
+	font-size: .75em;
+}
+
 form {
-/*	border: 1px solid white;*/
 	text-align: center;
 }
 
-#bet-input {
-	color: #20C20E;
-	font-family: 'Press Start 2P', cursive;
-
+#status {
+	width: 100px;
 }
 
-#input { border-radius:2px; border:1px solid #ccc;
-                 margin-top:10px; padding:5px; width:400px;  }
+#name-container {
+	margin: 0 auto;
+	width: 500px;
+}
+
+#input { 
+	border-radius:2px; 
+	background: transparent;
+	color: #fff;
+    margin-top:10px; 
+    padding:5px; 
+    width:300px;  
+}
+
+button {
+	background: transparent;
+	border: 2px dashed white;
+	display: block;
+	height: 50px;
+    margin: 0 auto;
+    width: 100px;
+}
 
 p { line-height:18px; }
 
@@ -44,4 +74,3 @@ div { width:500px; margin-left:auto; margin-right:auto;}
 #content { padding:5px; background:#ddd; border-radius:5px; overflow-y: scroll;
                    border:1px solid #CCC; margin-top:10px; height: 160px; }
 
-#status { width:88px; display:block; float:left; margin-top:15px; }
