@@ -21,7 +21,24 @@ clear && node server.js
 
 Head to localhost:1337/index.html in the browser to get started!
 
+<<<<<<< HEAD
 ## Views
 Pongzi has four views aka UIs.  
 
 The first is the betting page.
+=======
+
+##  Collaborators
+
+Just a heads up, please do the following:
+* Merge to **Dev** First
+* **Merge** to Dev First
+* Merge **to** Dev First
+* Merge to **Dev** First
+* Merge to Dev **First**
+* Merge to **Dev** First
+* ..
+* ...
+
+**Then** merge We merge Dev into **Master**
+>>>>>>> 5b7b05fb200c80f0fd744be69ef5e85e3ea76ce2
