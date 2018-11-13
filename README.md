@@ -20,3 +20,18 @@ clear && node server.js
 ```
 
 Head to localhost:1337/index.html in the browser to get started!
+
+
+##  Collaborators
+
+Just a heads up, please do the following:
+* Merge to **Dev** First
+* **Merge** to Dev First
+* Merge **to** Dev First
+* Merge to **Dev** First
+* Merge to Dev **First**
+* Merge to **Dev** First
+* ..
+* ...
+
+**Then** merge We merge Dev into **Master**
