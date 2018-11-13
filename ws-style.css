@@ -29,6 +29,33 @@ h2 {
 	text-align: center;
 	margin-top: 75px;
 }
+th {
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: .75em;
+  text-align: center;
+  margin-top: 75px;
+}
+td {
+  color: #20C20E;
+  font-family: 'Press Start 2P', cursive;
+  font-size: .65em;
+  text-align: center;
+  margin-top: 75px;
+  padding: 7px;
+}
+table {
+  margin: auto;
+  padding-top: 30px;
+}
+hr {
+  width: 40vw;
+  margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
 
 #status, #bet-input {
 	color: #20C20E;
@@ -56,9 +83,8 @@ form {
 	caret-color: #20C20E;
 	color: #20C20E;
 	font-family: 'Press Start 2P', cursive;
-	line-height: 20px;
-/*    margin-top:10px;*/ 
-/*    padding:5px;*/ 
+    margin-top:10px; 
+    padding:5px; 
     width:300px;  
 }
 
@@ -66,10 +92,7 @@ input:focus {
 	outline: none;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 2f1d809e1c500cf8ac1e9193f2488b1c16b5f582
 button {
 	background: transparent;
 	border: 2px dashed white;
@@ -79,30 +102,9 @@ button {
     width: 100px;
 }
 
-p { 
-	line-height: 20px; 
-}
+p { line-height:18px; }
 
-div { 
-	width:700px; 
-	margin-left:auto; 
-	margin-right:auto;
-}
+div { width:500px; margin-left:auto; margin-right:auto;}
 
-<<<<<<< HEAD
-#content { 
-	padding:5px; 
-	background: #46494F; 
-	border-radius: 5px; 
-	color: #20C20E;
-	font-family: monaco;
-	overflow-y: scroll;
-    border: 1px solid #CCC; 
-    margin-top: 10px; 
-    height: 160px; 
-}
-
-=======
 #content { padding:5px; background:#ddd; border-radius:5px; overflow-y: scroll;
                    border:1px solid #CCC; margin-top:10px; height: 160px; }
->>>>>>> 2f1d809e1c500cf8ac1e9193f2488b1c16b5f582
