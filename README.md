@@ -28,10 +28,10 @@ The first is the betting page.
 ![bet-ui](bet-ui.jpg)
 
 The second ui, the game page.
-![leaderboard-ui](pong-ui.jpg)
+![pong-ui](pong-ui.jpg)
 
 The third page, the betting page.
-![betting-ui](leaderboard-ui.JPG)
+![leaderboard-ui](leaderboard-ui.JPG)
 
 This is the optional bracket ui
 ![betting-ui](bracket-ui.JPG)
