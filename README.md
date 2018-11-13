@@ -24,17 +24,17 @@ Head to localhost:1337/index.html in the browser to get started!
 ##  Wireframe
 Pongzi has four views aka UIs.  
 
-The first is the betting page.
-<img src="bet-ui.JPG" width="250" height="250" />
+The first is the betting page.  
+<img src="bet-ui.JPG" width="500" height="500" />
 
-The second ui, the game page.
-<img src="pong-ui.JPG" width="250" height="250" />
+The second ui, the game page.  
+<img src="pong-ui.JPG" width="500" height="500" />
 
-The third page, the betting page.
-<img src="leaderboard-ui.JPG" width="250" height="250" />
+The third page, the betting page.  
+<img src="leaderboard-ui.JPG" width="500" height="500" />
 
-This is the optional bracket ui
-<img src="bracket-ui.JPG" width="250" height="250" />
+This is the optional bracket ui.  
+<img src="bracket-ui.JPG" width="500" height="500" />
 
 ##  Collaborators
 
