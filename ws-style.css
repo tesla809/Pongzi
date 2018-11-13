@@ -12,8 +12,15 @@ h1 {
 	color: #fff;
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
-	margin-top: 75px;
+/*	border-right: .7em solid white;
+	animation: 
+		blink-caret .85s step-end infinite;*/
 }
+
+/*@keyframes blink-caret {
+	from, to { border-color: transparent; }
+	50% { border-color: white; }
+}*/
 
 h2 {
 	color: #20C20E;
@@ -23,10 +30,10 @@ h2 {
 	margin-top: 75px;
 }
 
-button{
-	background-color: gray;
-	border-radius: 75px;
-	width: 100px;
+#status, #bet-input {
+	color: #20C20E;
+	font-family: 'Press Start 2P', cursive;
+	font-size: .75em;
 }
 
 form {
@@ -42,18 +49,60 @@ form {
 	width: 500px;
 }
 
-#input {
-	border-radius:2px;
-	border:1px
-	solid #ccc;
-    margin-top:10px;
-    padding:5px;
-    width:400px;
+#input { 
+	border: none;
+	border-bottom: 2px dashed #20C20E; 
+	background: transparent;
+	caret-color: #20C20E;
+	color: #20C20E;
+	font-family: 'Press Start 2P', cursive;
+	line-height: 20px;
+/*    margin-top:10px;*/ 
+/*    padding:5px;*/ 
+    width:300px;  
 }
 
-p { line-height:18px; }
+input:focus {
+	outline: none;
+}
 
-div { width:500px; margin-left:auto; margin-right:auto;}
+<<<<<<< HEAD
+=======
 
+>>>>>>> 2f1d809e1c500cf8ac1e9193f2488b1c16b5f582
+button {
+	background: transparent;
+	border: 2px dashed white;
+	display: block;
+	height: 50px;
+    margin: 0 auto;
+    width: 100px;
+}
+
+p { 
+	line-height: 20px; 
+}
+
+div { 
+	width:700px; 
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+<<<<<<< HEAD
+#content { 
+	padding:5px; 
+	background: #46494F; 
+	border-radius: 5px; 
+	color: #20C20E;
+	font-family: monaco;
+	overflow-y: scroll;
+    border: 1px solid #CCC; 
+    margin-top: 10px; 
+    height: 160px; 
+}
+
+=======
 #content { padding:5px; background:#ddd; border-radius:5px; overflow-y: scroll;
                    border:1px solid #CCC; margin-top:10px; height: 160px; }
+>>>>>>> 2f1d809e1c500cf8ac1e9193f2488b1c16b5f582
