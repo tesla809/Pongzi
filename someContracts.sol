@@ -13,11 +13,11 @@ contract Player is Participant
 
     constructor() public
     {
-        user = msg.sender;
     }
 
     function fund() public payable
     {
+        
     }
 
     function isPlayer() external returns (bool)
@@ -32,12 +32,24 @@ contract Player is Participant
     
     function has(address sender) external returns (bool)
     {
-        return user == sender;
+        return address(this) == sender;
     }
 
     function transferAllTo(Participant _p) external
     {
         address(_p).transfer(address(this).balance);
+    }
+    
+    function agreeWon(Game _g)
+        public
+    {
+        _g.agreeWon(this);
+    }
+    
+    function start(Game _game)
+    public
+    {
+        _game.start();
     }
 }
 
@@ -92,18 +104,17 @@ contract Game
     function add(Participant _p)
         public
     {
-        require(_p.has(msg.sender));
 
         if (p1 == address(0)) {
-            if (p2 != address(0)) {
-                require(!p2.has(msg.sender));
-            }
+            // if (p2 != address(0)) {
+            //     require(!p2.has(msg.sender));
+            // }
             p1 = _p;
         }
         else if (p2 == address(0)) {
-            if (p1 != address(0)) {
-                require(!p1.has(msg.sender));
-            }
+            // if (p1 != address(0)) {
+            //     require(!p1.has(msg.sender));
+            // }
             p2 = _p;
         }
         else {
@@ -117,7 +128,7 @@ contract Game
         if (!p1Started && p1.has(msg.sender)) {
             p1Started = true;
         }
-        else if (!p2Started && p2.has(msg.sender)) {
+        if (!p2Started && p2.has(msg.sender)) {
             p2Started = true;
         }
     }
@@ -162,44 +173,47 @@ contract Game
         require(_p == p1 || _p == p2);
 
         if (p1.has(msg.sender)) {
-            require(!p1SaidP1Won && p1SaidP2Won);
+            require(!p1SaidP1Won && !p1SaidP2Won);
             p1SaidP1Won = (_p == p1);
             p1SaidP2Won = (_p == p2);
         }
         else if (p2.has(msg.sender)) {
-            require(!p2SaidP1Won && p2SaidP2Won);
+            require(!p2SaidP1Won && !p2SaidP2Won);
             p2SaidP1Won = (_p == p1);
             p2SaidP2Won = (_p == p2);
         }
 
-        if (playersAgreed())
-        {
-            if (p1SaidP1Won) {
-                p2.transferAllTo(p1);
-            }
-            else {
-                p1.transferAllTo(p2);
-            }
-        }
+        // if (playersAgreed())
+        // {
+        //     if (p1SaidP1Won) {
+        //         p2.transferAllTo(p1);
+        //     }
+        //     else {
+        //         p1.transferAllTo(p2);
+        //     }
+        // }
     }
 }
 
 contract Test
 {
+    Game public game;
+    
+    
     function go()
-        public 
+        public
     {
         Player p1 = new Player();
         Player p2 = new Player();
     
-        Game game = new Game();
+        game = new Game();
         game.add(Participant(p1));
         game.add(Participant(p2));
     
-        game.start();
-        game.start();
+        p1.start(game);
+        p2.start(game);
     
-        game.agreeWon(p1);
-        game.agreeWon(p2);
+        p1.agreeWon(game);
+        p2.agreeWon(game);
     }
 }
