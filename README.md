@@ -25,16 +25,16 @@ Head to localhost:1337/index.html in the browser to get started!
 Pongzi has four views aka UIs.  
 
 The first is the betting page.
-![bet-ui](bet-ui.JPG)
+<img src="bet-ui.JPG" width="250" height="250" />
 
 The second ui, the game page.
-![pong-ui](pong-ui.JPG)
+<img src="pong-ui.JPG" width="250" height="250" />
 
 The third page, the betting page.
-![leaderboard-ui](leaderboard-ui.JPG)
+<img src="leaderboard-ui.JPG" width="250" height="250" />
 
 This is the optional bracket ui
-![betting-ui](bracket-ui.JPG)
+<img src="bracket-ui.JPG" width="250" height="250" />
 
 ##  Collaborators
 
