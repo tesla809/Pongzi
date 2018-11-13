@@ -25,10 +25,10 @@ Head to localhost:1337/index.html in the browser to get started!
 Pongzi has four views aka UIs.  
 
 The first is the betting page.
-![bet-ui](bet-ui.jpg)
+![bet-ui](bet-ui.JPG)
 
 The second ui, the game page.
-![pong-ui](pong-ui.jpg)
+![pong-ui](pong-ui.JPG)
 
 The third page, the betting page.
 ![leaderboard-ui](leaderboard-ui.JPG)
