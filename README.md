@@ -35,3 +35,7 @@ Just a heads up, please do the following:
 * ...
 
 **Then** merge We merge Dev into **Master**
+
+##  Wireframe
+
+![](images/IMG_0483.jpg)
