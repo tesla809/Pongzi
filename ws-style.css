@@ -1,6 +1,6 @@
-* { 
+* {
 	margin:0px;
-	padding:0px; 
+	padding:0px;
 }
 
 body {
@@ -66,6 +66,10 @@ input:focus {
 	outline: none;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2f1d809e1c500cf8ac1e9193f2488b1c16b5f582
 button {
 	background: transparent;
 	border: 2px dashed white;
@@ -85,6 +89,7 @@ div {
 	margin-right:auto;
 }
 
+<<<<<<< HEAD
 #content { 
 	padding:5px; 
 	background: #46494F; 
@@ -97,3 +102,7 @@ div {
     height: 160px; 
 }
 
+=======
+#content { padding:5px; background:#ddd; border-radius:5px; overflow-y: scroll;
+                   border:1px solid #CCC; margin-top:10px; height: 160px; }
+>>>>>>> 2f1d809e1c500cf8ac1e9193f2488b1c16b5f582
