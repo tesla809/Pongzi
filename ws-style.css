@@ -53,7 +53,9 @@ form {
 	border: none;
 	border-bottom: 2px dashed #20C20E; 
 	background: transparent;
-	color: #fff;
+	caret-color: #20C20E;
+	color: #20C20E;
+	font-family: 'Press Start 2P', cursive;
     margin-top:10px; 
     padding:5px; 
     width:300px;  
@@ -62,6 +64,7 @@ form {
 input:focus {
 	outline: none;
 }
+
 
 
 
