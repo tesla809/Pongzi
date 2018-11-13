@@ -21,6 +21,20 @@ clear && node server.js
 
 Head to localhost:1337/index.html in the browser to get started!
 
+##  Wireframe
+Pongzi has four views aka UIs.  
+
+The first is the betting page.
+![bet-ui](bet-ui.jpg)
+
+The second ui, the game page.
+![leaderboard-ui](pong-ui.jpg)
+
+The third page, the betting page.
+![betting-ui](leaderboard-ui.JPG)
+
+This is the optional bracket ui
+![betting-ui](bracket-ui.JPG)
 
 ##  Collaborators
 
@@ -33,5 +47,3 @@ Just a heads up, please do the following:
 * Merge to **Dev** First
 * ..
 * ...
-
-**Then** merge We merge Dev into **Master**
