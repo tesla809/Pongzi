@@ -1,6 +1,6 @@
-* { 
+* {
 	margin:0px;
-	padding:0px; 
+	padding:0px;
 }
 
 body {
@@ -66,8 +66,6 @@ input:focus {
 }
 
 
-
-
 button {
 	background: transparent;
 	border: 2px dashed white;
@@ -83,4 +81,3 @@ div { width:500px; margin-left:auto; margin-right:auto;}
 
 #content { padding:5px; background:#ddd; border-radius:5px; overflow-y: scroll;
                    border:1px solid #CCC; margin-top:10px; height: 160px; }
-
